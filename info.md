@@ -102,3 +102,20 @@ git pull origin master/main
 
 ## pull vs fetch 
 * pull is fetch + merge 
+
+
+# GIT branch
+```
+git branch --list 
+OR
+git branch
+```
+
+```
+// To create a branch 
+git branch branch_name
+
+// To Switch branch 
+git switch branch_name
+
+```

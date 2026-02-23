@@ -1,2 +1,1 @@
-this is inside a1.txt opened via nano
-
+now the content is replaced after adding> commiting> pushing once

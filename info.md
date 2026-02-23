@@ -117,5 +117,31 @@ git branch branch_name
 
 // To Switch branch 
 git switch branch_name
+OR
+git checkout branch_name
 
+// To create and switch simultaneously
+git checkout -b branch_name
+
+// To push to any branch in remote repo 
+git push alias_name branch_name
+git push origin master
+
+// To list all branches in remote
+git branch -r 
+
+// To list all branches locally and remote
+git branch -a
+
+// To delete branch locally 
+```git branch -d branch_name```  (this will delete branches that are merged)
+OR
+```git branch -D branch_name```   (this will delete branches that are merged)
 ```
+
+
+## 2 way merging/ fast forward merge
+* in this the master branch(or branch that is being merged to) is not having any changes
+## 3 way 
+* in this the master branch(or branch that is being merged to) is having changes, (means changes is observed in both the branches)
+

@@ -1,0 +1,2 @@
+this is inside a1.txt opened via nano
+
